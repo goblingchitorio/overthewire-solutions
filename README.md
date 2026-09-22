@@ -3,7 +3,11 @@ Overthewire - writeups CTF
 
 
 
-- challenge:
+- challenge: bandit overthewire level 1->34
+- category: basic linux
+- Difficulty: easy
+- source : [bandit overthewire](https://overthewire.org/wargames/bandit/)
+  
 
 
 
