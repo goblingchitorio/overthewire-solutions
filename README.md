@@ -36,13 +36,14 @@ Sau khi nhập input thì màn hình sẽ hiện ra yêu cầu nhập password v
 ![](https://github.com/goblingchitorio/overthewire-solutions/blob/main/img3.jpg)
 #### Solution
 Trước khi giải game này ta phải làm quen với một số lệnh cơ bản:
-- ```ls```:cho mình biết mình đang ở thư mục.
+- ```ls```:cho biết có bao nhiêu file trong folder.
 - ```cd ```:lệnh này đưa mình đến một folder cụ thể.
 - ```cat```:lệnh này cho phép mình đọc nội dung trong thư mục.
 - ```file```:lệnh này dùng để xem kiểu file.
 - ```du``` :lệnh này dùng để xem dung lượng của file và folder.
 - ```find```:lệnh này dùng để tìm một file hay một folder.
-![]() 
+![](https://github.com/goblingchitorio/overthewire-solutions/blob/main/img4.jpg)
+Với các lệnh ở trên, ta sủ dụng lệnh ```ls``` để xem có bao nhiêu thư mục thì bất ngờ thư mục``` readme ``` hiện ra màn hình. Đến đây thì ta chỉ cần sử dụng lệnh ```cat``` để đọc thư mục ```readme```, và mật khẩu của level này hiện trong thư mục readme là :  ```6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR mk1 ```.
 
 
 
