@@ -7,6 +7,12 @@ Overthewire - writeups CTF
 - category: basic linux
 - Difficulty: easy
 - source : [bandit overthewire](https://overthewire.org/wargames/bandit/)
+
+
+
+
+
+
 ![Note](./"C:\Users\chitorio\Downloads\note.webp")
   
 
