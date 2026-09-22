@@ -9,7 +9,19 @@ Overthewire - writeups CTF
 
 ## level 0
 Ở level 0 đề yêu cầu mình sữu dụng ```SSH``` .Máy chủ mà mình phải kết nối là ```bandit.labs.overthewire.org```, trên cổng ```2220``` .Tên đăng nhập và mật khẩu là ```bandit0```.
-![](
+
+![](./img1)
+#### Solution
+Để kết nối vào sever với cổng 2220, ta cần thêm option ```-p 2220```` (-p nghĩa là port).
+
+
+Lệnh input terminal: ```SSH bandit.labs.overthewire.org -p 2220 -l bandit0```.
+
+
+Sau khi nhập input thì màn hình sẽ hiện ra yêu cầu nhập password và khi đó ta cần nhập mật khẩu  ```bandit0``` là sẽ vào được sever.
+
+![]()
+
 
 
   
