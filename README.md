@@ -20,7 +20,19 @@ Lệnh input terminal: ```SSH bandit.labs.overthewire.org -p 2220 -l bandit0```.
 
 Sau khi nhập input thì màn hình sẽ hiện ra yêu cầu nhập password và khi đó ta cần nhập mật khẩu  ```bandit0``` là sẽ vào được sever.
 
-![]()
+![](img2.jpg)
+
+#### References
+- [Secure shell(SSH) on wikipedia](https://en.wikipedia.org/wiki/Secure_Shell).
+- [How to use SSH with a non-standard port on It's FOSS](https://itsfoss.com/ssh-to-port/).
+- [How to use SSH with ssh-keys on wikiHow](https://www.wikihow.com/Use-SSH)
+
+#### Level 1
+Ở ```level 1``` mình cần tìm password trong thư mục tên là ```-``` nằm trong thư mục chính.
+
+
+
+
 
 
 
