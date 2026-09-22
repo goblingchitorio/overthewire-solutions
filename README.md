@@ -12,10 +12,12 @@ Overthewire - writeups CTF
 
 ![](./img1)
 #### Solution
-Để kết nối vào sever với cổng 2220, ta cần thêm option ```-p 2220```` (-p nghĩa là port).
+Để kết nối vào sever với cổng 2220, ta cần thêm option ```-p 2220``` (-p nghĩa là port) , ngoài ra ở cuối câu lệnh ta có thể sữ dụng thêm  option ```-l bandit0``` (-l nghĩa là login)
 
 
-Lệnh input terminal: ```SSH bandit.labs.overthewire.org -p 2220 -l bandit0```.
+Lệnh input terminal: ```SSH bandit.labs.overthewire.org -p 2220 -l bandit0``` 
+                                    hoặc  
+                      ``` SSH bandit0@bandit.labs.overthewire.org -p2220```
 
 
 Sau khi nhập input thì màn hình sẽ hiện ra yêu cầu nhập password và khi đó ta cần nhập mật khẩu  ```bandit0``` là sẽ vào được sever.
@@ -27,8 +29,20 @@ Sau khi nhập input thì màn hình sẽ hiện ra yêu cầu nhập password v
 - [How to use SSH with a non-standard port on It's FOSS](https://itsfoss.com/ssh-to-port/).
 - [How to use SSH with ssh-keys on wikiHow](https://www.wikihow.com/Use-SSH)
 
-#### Level 1
-Ở ```level 1``` mình cần tìm password trong thư mục tên là ```-``` nằm trong thư mục chính.
+#### Level 0->1
+Ở ```level 0->1 ``` mình cần tìm password trong thư mục tên là ```readme``` nằm trong thư mục chính. Sử dụng mật khẩu mới lấy được để đăng nhập vào ```bandit1``` bằng ```SSH``. Bất cứ khi nào bạn lấy được mật khẩu cho một cấp độ, sử dụng ```SSH``` trên ```port 2220``` để đăng nhập và tiếp tục game.
+
+![](https://github.com/goblingchitorio/overthewire-solutions/blob/main/img3.jpg)
+#### Solution
+Trước khi giải game này ta phải làm quen với một số lệnh cơ bản:
+- ```ls```:cho mình biết mình đang ở thư mục.
+- ```cd ```:lệnh này đưa mình đến một folder cụ thể.
+- ```cat```:lệnh này cho phép mình đọc nội dung trong thư mục.
+- ```file```:lệnh này dùng để xem kiểu file.
+- ```du``` :lệnh này dùng để xem dung lượng của file và folder.
+- ```find```:lệnh này dùng để tìm một file hay một folder.
+![]() 
+
 
 
 
