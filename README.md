@@ -30,7 +30,7 @@ Sau khi nhập input thì màn hình sẽ hiện ra yêu cầu nhập password v
 - [How to use SSH with ssh-keys on wikiHow](https://www.wikihow.com/Use-SSH)
 
 #### Level 0->1
-Ở ```level 0->1 ``` mình cần tìm password trong thư mục tên là ```readme``` nằm trong thư mục chính. Sử dụng mật khẩu mới lấy được để đăng nhập vào ```bandit1``` bằng ```SSH``. Bất cứ khi nào bạn lấy được mật khẩu cho một cấp độ, sử dụng ```SSH``` trên ```port 2220``` để đăng nhập và tiếp tục game.
+Ở ```level 0->1 ``` mình cần tìm password trong thư mục tên là ```readme``` nằm trong thư mục chính. Sử dụng mật khẩu mới lấy được để đăng nhập vào ```bandit1``` bằng ```SSH```. Bất cứ khi nào bạn lấy được mật khẩu cho một cấp độ, sử dụng ```SSH``` trên ```port 2220``` để đăng nhập và tiếp tục game.
 
  
 ![](https://github.com/goblingchitorio/overthewire-solutions/blob/main/img3.jpg)
